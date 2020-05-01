@@ -32,8 +32,9 @@ if(strtolower(basename($_SERVER["SCRIPT_FILENAME"])) === strtolower("page.header
            <div class="container">
              <div style="display: flex;" class="columns">
                <div style="text-align: left;" class="column">
-                 <a href="/"><h1 style="font-size: 50px;" class="title">
-                   <?=$_SERVER['SERVER_NAME']?>
+                 <a href="/">
+				 <h1 style="font-size: 50px;" class="title">
+                   Short Link
                  </h1></a>
                  <h2 class="subtitle">
                    <span style="margin-left: 14px; margin-right: 14px;"></span> Делаем короткие ссылки
