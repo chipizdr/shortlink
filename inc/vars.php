@@ -17,7 +17,7 @@ define("SHORTLINK_CODE_CHARS", "123456789bcdfghjkmnpqrstvwxyzBCDFGHJKLMNPQRSTVWX
 
 define("FORWADER_PREVIEW", false); // включение этой функции предотвращает автоматическое перенаправление на вредоносные веб-сайты; переключение этой функции требует очистки кеша
 
-define("FOOTER_TXT", 'YVBCR prod.'); // текст нижнего колонтитула
+define("FOOTER_TXT", ''); // текст нижнего колонтитула
 
 // Черный список
 $kw_blacklist = array (
