@@ -145,5 +145,5 @@ if($pass === true) {
   setcookie('EM', '00', '0', '/');
 }
 setcookie('BL', $code, '0', '/');
-header('Location: /display.php');
+header('Location: ./display.php');
 exit;

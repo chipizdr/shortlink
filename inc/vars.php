@@ -5,12 +5,12 @@ define("DB_DATABASE", "db");
 define("DB_USERNAME", "user");
 define("DB_PASSWORD", "pass");
 
-define("SHORTLINK_PREFIX", "http://".$_SERVER['SERVER_NAME']."/"); 
+define("SHORTLINK_PREFIX", "http://".$_SERVER['SERVER_NAME']."/link/"); 
 define("CONTACT_EMAIL", "support@".$_SERVER['SERVER_NAME']); 
 
 define("reCAPTCHA_ENABLED", true); // true or false;  Интеграция reCAPTCHA является дополнительной функцией
-define("reCAPTCHA_SITEKEY", "site_key"); // получите ключ вашего сайта на https://www.google.com/recaptcha/admin и установить reCAPTCHA_ENABLED на true
-define("reCAPTCHA_SECRETKEY", "sekret_key"); // please obtain your secret key at https://www.google.com/recaptcha/admin и установить reCAPTCHA_ENABLED на true
+define("reCAPTCHA_SITEKEY", "SITEKEY"); // получите ключ вашего сайта на https://www.google.com/recaptcha/admin и установить reCAPTCHA_ENABLED на true
+define("reCAPTCHA_SECRETKEY", "SECRETKEY"); // please obtain your secret key at https://www.google.com/recaptcha/admin и установить reCAPTCHA_ENABLED на true
 define("reCAPTCHA_LANG", "ru"); // reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language и установить reCAPTCHA_ENABLED на true
 
 define("SHORTLINK_CODE_CHARS", "123456789bcdfghjkmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"); 
