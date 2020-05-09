@@ -5,7 +5,7 @@ define("DB_DATABASE", "db");
 define("DB_USERNAME", "user");
 define("DB_PASSWORD", "pass");
 
-define("SHORTLINK_PREFIX", "http://".$_SERVER['SERVER_NAME']."/link/"); 
+define("SHORTLINK_PREFIX", "http://".$_SERVER['SERVER_NAME']."/"); 
 define("CONTACT_EMAIL", "support@".$_SERVER['SERVER_NAME']); 
 
 define("reCAPTCHA_ENABLED", true); // true or false;  Интеграция reCAPTCHA является дополнительной функцией
